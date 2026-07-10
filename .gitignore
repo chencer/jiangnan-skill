@@ -1,9 +1,15 @@
 # 原始语料及派生分析 — 禁止上传
 corpus/
 extracts/
+codex/excerpts/
 analysis/baseline_longzu.json
-*.txt
 *.epub
+
+# 全局排除 txt，但原创产出目录除外
+*.txt
+!drafts/*.txt
+!golden/**/*.txt
+!golden/*.txt
 
 # 杂项
 __pycache__/
