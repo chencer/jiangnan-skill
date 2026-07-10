@@ -1,0 +1,11 @@
+# 原始语料及派生分析 — 禁止上传
+corpus/
+extracts/
+analysis/baseline_longzu.json
+*.txt
+*.epub
+
+# 杂项
+__pycache__/
+*.pyc
+.DS_Store
