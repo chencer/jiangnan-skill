@@ -20,7 +20,7 @@
 | scene-splitter | haiku | 场景切分与章节分诊 |
 | card-writer | sonnet | B/C 级卡片撰写 |
 | deep-reader | opus | A 级卡片精读、人物原型汇总 |
-| prose-writer | fable | 分镜稿 + 试写正文 + 正式章节(全项目最高价值输出) |
+| prose-writer | opus | 分镜稿 + 试写正文 + 正式章节(全项目最高价值输出)——注:fable 环境不可用,改用 opus 4.8 |
 | prose-fixer | sonnet | 统计不达标的机械性修改(调句长/删感叹号/切段落) |
 
 **双保险规则(必须遵守)**:已知部分版本存在 frontmatter model 字段被忽略的 bug,因此 orchestrator 每次派发子代理时,**必须在 Agent 调用中显式传入 model 参数**,与 frontmatter 保持一致;不允许依赖 frontmatter 单独生效。
