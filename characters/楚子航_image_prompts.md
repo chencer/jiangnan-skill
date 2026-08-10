@@ -105,6 +105,56 @@ golden dragon eyes, glowing eyes, burning eyes, molten lava eyes, red eyes, iron
 
 ---
 
+### 3.1-b 中国假期 chill 车戏（Vol2 · Panamera 高架送信 / 张罗吃饭）
+
+> **场景锚点**：龙2 · 楚子航暑假回国，开着 Panamera 从赵孟华生日 party 现场截下陈雯雯替路明非送邀请，又回头接上路明非，两人在高架路上聊生日、讨论意大利菜、打电话给 Aspasia 订座（原文 longzu.txt L6318-L6362）。
+> **气质定位**：外面冷得像杀手（"港片里演对老大忠心耿耿的杀手"），里面在替师弟张罗吃饭订座——**冷面 chill 反差**。
+> **时期**：高中毕业后·卡塞尔在读期间的中国暑假（介于 B2 高中 与 B3 卡塞尔之间；服装取"随意休闲的假期私服"）
+
+**保留：** 基线的**面部 / 发 / 温润黑瞳 / 冷面 / 眉宇线条**
+
+**调整（英文 tag 追加/替换）：**
+```
+[REPLACE] tailored black suit → casual summer private wear, plain dark T-shirt or thin dark shirt with sleeves pushed to elbows, dark slim trousers
+[REMOVE] black long overcoat draped over shoulders
+[REMOVE] exquisite leather briefcase
+[REMOVE] long black cloth bag over shoulder
+[ADD] black wraparound sunglasses covering half of the face, only lower jaw and lips visible below the frame
+[REPLACE] standing still → seated in the driver seat of a deep navy blue Porsche Panamera, one hand resting on top of the steering wheel, the other hand mid-motion on the manual gearshift, fingers agile and controlled
+[ADD] shot through the driver-side window from a slight low angle, or interior three-quarter side profile framed by the door pillar
+[ADD] elevated urban expressway in the background, blurred summer greenery and Chinese city skyline in motion blur, mid-day heat haze
+[ADD] a small smartphone resting on the center console, screen faintly lit (call in progress)
+[REPLACE] overcast diffused daylight → strong summer daylight, sharp side light through the windshield, warm highlights on the jawline contrasting with cool shadow across the eyes
+[ADD] cinematic Hong Kong crime film aesthetic, restrained cool, still and dangerous
+```
+
+**中文自然语言式（可整段替换基线）：**
+
+一位二十出头的年轻男人独自坐在一辆暗蓝色保时捷 Panamera 的驾驶座里。他戴着一副宽框的黑超墨镜，遮住了半张脸，只露出下颌和抿得平直的嘴唇，那半张脸冷得像一块冰。一头毫不驯服的漆黑短发，额发略长压在墨镜边缘。他穿一件普通的深色 T 恤或深色薄衬衫，袖子随意推到手肘上方，一副刚从家里出门的假期私服。左手搭在方向盘顶端，右手正落在手动挡的挡杆上，五指灵敏而克制，一副把整个局面都握在指间的姿态。中控台上放着一部亮着屏的手机，正在通话中。镜头从副驾驶视角侧拍他的侧脸，被门柱和阳光切成明暗两半——阳光落在下颌线上是暖色，眼睛以上被墨镜和阴影压成冷色。车窗外是中国夏日的城市高架路，路面泛着热气，两侧的树影和城市天际线因车速虚化成流动的绿色和灰色。写实电影感人像，港片犯罪片美学，克制、冷、危险，一切都在可控之内。
+
+**中国车戏 diff → 原文对照：**
+
+| diff 参数 | 原文关键短语 | 出处（longzu.txt 行） |
+|---|---|---|
+| 暗蓝色 Panamera / 急停 / 倒开 | "一道暗蓝色的影子在他身边一闪而过，Panamera 急停" / "居然是倒着开车的" | L6318, L6319 |
+| 黑超墨镜遮住半张脸，脸冷得像冰 | "楚子航被黑超遮住一半的脸上冰一样冷" | L6320 |
+| 港片老大杀手气质 | "可以去任何港片里演对老大忠心耿耿的杀手" | L6320 |
+| 纯手动模式，控挡的手飞速变动 | "他开车很好，纯手动模式，控挡的手飞速变动，绝不拖泥带水" | L6342 |
+| 把事情全部控制于手中的姿势带着美感 | "那种把事情全部控制于手中的姿势带着种美感" | L6342 |
+| 中国高架路 / 假期回国 | "Panamera 拐上了高架路" / "他们的家都在当地，正在放暑假" | L6339, L5889 |
+| 手机通话中（打给 Aspasia 订餐 / 打给芬格尔悬赏） | "接通车载蓝牙，'Aspasia 餐馆么？我想预订今晚的两人座'" / "他拨通另一个号码，'芬格尔，你在电脑旁边么？'" | L6354, L6362 |
+| 假期私服（非制服 / 非西装 / 非风衣） | 场景推断：假期回国见家、临时截人送信 → 非正装；原文未明写具体单品，服装取"极简深色便装" | 场景推断（B3 时期的假期状态） |
+
+**注意事项：**
+
+- **不出西装 / 风衣 / 皮箱 / 长刀布袋**（那些是 Vol4 卡塞尔专员成年态的通勤装备，与假期 chill 场景冲突）
+- **墨镜是这场戏的核心视觉道具**，必须画出，不要换成裸眼冷面
+- **手部姿态是重点**——控挡的手 / 方向盘上的手指，江南给了极强的形态描写（"飞速变动 / 绝不拖泥带水 / 蝴蝶从指缝中飞出"），可以取"手部特写"变体单独出图
+- **氛围关键词**："港片犯罪片" / "夏日高架" / "冷面但在张罗事" —— 不要出成杀气腾腾的追杀戏，也不要出成阳光灿烂的兜风戏
+- **同场景可选变体**：车外仰角侧拍（Panamera 停在人行道边，车窗降下递名片给陈雯雯的瞬间，L6320-L6323）—— 此变体保留全部 diff，机位换到车外
+
+---
+
 ### 3.2 战斗态（村雨出鞘瞬间 · 眼睛保持人形黑色，不出龙瞳）
 
 **保留：** 基线全部（面部 / 发 / 温润黑瞳 / 冷面）
