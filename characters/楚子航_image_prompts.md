@@ -115,22 +115,24 @@ golden dragon eyes, glowing eyes, burning eyes, molten lava eyes, red eyes, iron
 
 **调整（英文 tag 追加/替换）：**
 ```
-[REPLACE] tailored black suit → casual summer private wear, plain dark T-shirt or thin dark shirt with sleeves pushed to elbows, dark slim trousers
+[REPLACE] tailored black suit → plain white cotton crew-neck T-shirt (Burberry-tier premium basic), water-washed light blue slim denim jeans (Diesel-style faded indigo)
 [REMOVE] black long overcoat draped over shoulders
 [REMOVE] exquisite leather briefcase
 [REMOVE] long black cloth bag over shoulder
+[ADD] a black elongated hardshell tennis bag slung diagonally across the back, matte black leather trim, oversized enough to conceal a long blade inside
+[ADD] freshly washed damp hair with faint sandalwood scent, hair strands slightly wet at the tips
 [ADD] black wraparound sunglasses covering half of the face, only lower jaw and lips visible below the frame
 [REPLACE] standing still → seated in the driver seat of a deep navy blue Porsche Panamera, one hand resting on top of the steering wheel, the other hand mid-motion on the manual gearshift, fingers agile and controlled
 [ADD] shot through the driver-side window from a slight low angle, or interior three-quarter side profile framed by the door pillar
 [ADD] elevated urban expressway in the background, blurred summer greenery and Chinese city skyline in motion blur, mid-day heat haze
 [ADD] a small smartphone resting on the center console, screen faintly lit (call in progress)
 [REPLACE] overcast diffused daylight → strong summer daylight, sharp side light through the windshield, warm highlights on the jawline contrasting with cool shadow across the eyes
-[ADD] cinematic Hong Kong crime film aesthetic, restrained cool, still and dangerous
+[ADD] cinematic Hong Kong crime film aesthetic, restrained cool, still and dangerous, understated luxury casual (low-key wealth, no visible logos)
 ```
 
 **中文自然语言式（可整段替换基线）：**
 
-一位二十出头的年轻男人独自坐在一辆暗蓝色保时捷 Panamera 的驾驶座里。他戴着一副宽框的黑超墨镜，遮住了半张脸，只露出下颌和抿得平直的嘴唇，那半张脸冷得像一块冰。一头毫不驯服的漆黑短发，额发略长压在墨镜边缘。他穿一件普通的深色 T 恤或深色薄衬衫，袖子随意推到手肘上方，一副刚从家里出门的假期私服。左手搭在方向盘顶端，右手正落在手动挡的挡杆上，五指灵敏而克制，一副把整个局面都握在指间的姿态。中控台上放着一部亮着屏的手机，正在通话中。镜头从副驾驶视角侧拍他的侧脸，被门柱和阳光切成明暗两半——阳光落在下颌线上是暖色，眼睛以上被墨镜和阴影压成冷色。车窗外是中国夏日的城市高架路，路面泛着热气，两侧的树影和城市天际线因车速虚化成流动的绿色和灰色。写实电影感人像，港片犯罪片美学，克制、冷、危险，一切都在可控之内。
+一位二十出头的年轻男人独自坐在一辆暗蓝色保时捷 Panamera 的驾驶座里。他戴着一副宽框的黑超墨镜，遮住了半张脸，只露出下颌和抿得平直的嘴唇，那半张脸冷得像一块冰。一头毫不驯服的漆黑短发刚洗过，发梢还带点湿润，隐约有檀香味。他穿一件质地极好的纯白圆领 T 恤（Burberry 一级的基础款，低调无 logo），下身是水洗蓝的修身牛仔长裤（Diesel 系褪色靛蓝），一副从家门口刚出来的样子。一只黑色加长型硬壳网球包斜跨在肩后，包身够大，藏一把长刀绰绰有余——这是他假期出门的固定配置。左手搭在方向盘顶端，右手正落在手动挡的挡杆上，五指灵敏而克制，一副把整个局面都握在指间的姿态。中控台上放着一部亮着屏的手机，正在通话中。镜头从副驾驶视角侧拍他的侧脸，被门柱和阳光切成明暗两半——阳光落在下颌线上是暖色，眼睛以上被墨镜和阴影压成冷色。车窗外是中国夏日的城市高架路，路面泛着热气，两侧的树影和城市天际线因车速虚化成流动的绿色和灰色。写实电影感人像，港片犯罪片美学，低调奢华的休闲基调（隐性财富，无可见 logo），克制、冷、危险，一切都在可控之内。
 
 **中国车戏 diff → 原文对照：**
 
@@ -143,15 +145,24 @@ golden dragon eyes, glowing eyes, burning eyes, molten lava eyes, red eyes, iron
 | 把事情全部控制于手中的姿势带着美感 | "那种把事情全部控制于手中的姿势带着种美感" | L6342 |
 | 中国高架路 / 假期回国 | "Panamera 拐上了高架路" / "他们的家都在当地，正在放暑假" | L6339, L5889 |
 | 手机通话中（打给 Aspasia 订餐 / 打给芬格尔悬赏） | "接通车载蓝牙，'Aspasia 餐馆么？我想预订今晚的两人座'" / "他拨通另一个号码，'芬格尔，你在电脑旁边么？'" | L6354, L6362 |
-| 假期私服（非制服 / 非西装 / 非风衣） | 场景推断：假期回国见家、临时截人送信 → 非正装；原文未明写具体单品，服装取"极简深色便装" | 场景推断（B3 时期的假期状态） |
+| 水洗蓝牛仔长裤 + 白色 T 恤，全身上下简简单单 | "楚子航穿了条水洗蓝的牛仔长裤，一件白色的T恤，全身上下简简单单" | L5945 |
+| 斜跨黑色加长型网球包（内藏村雨长刀） | "斜跨着黑色的网球包" / "衣橱角落里躺着一只黑色加长型网球包。拉开拉链，黑色鲛鱼皮包裹的刀柄紧紧地贴着球拍" | L5945, L5934 |
+| 头发刚洗过，带檀香味 | "头发上带着刚洗过的檀香味" | L5945 |
+| 妈妈以为是出去打网球 | "'出去打网球？'妈妈问。" | L5952 |
+| 路明非见网球包立刻警觉 | "他太清楚这货为什么背着那个网球包了，他带着一切长形物品出现时都得小心，因为若干次事实证明这家伙必然会从里面抽出一把刀来" | L6210 |
+| 奢牌休闲基调（Burberry 白 T / Diesel 牛仔 · 无可见 logo） | 品牌谱系依据："同学里大部分人还穿耐克和阿迪达斯时，楚子航已经开始用'Burberry'一类的牌子，把 Burberry 围巾在 Diesel 的套衫外打了个松松垮垮的结子" / "Hermes 包" | L203, L5407, L5519, L5937 |
 
 **注意事项：**
 
 - **不出西装 / 风衣 / 皮箱 / 长刀布袋**（那些是 Vol4 卡塞尔专员成年态的通勤装备，与假期 chill 场景冲突）
 - **墨镜是这场戏的核心视觉道具**，必须画出，不要换成裸眼冷面
+- **网球包必须黑色、加长型、硬壳感**——它是"藏刀道具"，不是运动装饰。不要画成软布网球拍套，也不要露出球拍柄
+- **奢牌但无 logo**：Burberry 白 T / Diesel 牛仔的品味定位靠**版型 / 质感 / 剪裁**呈现，不要在画面里出现任何 logo 或经典格纹（角色的低调风格不允许显性 branding）
 - **手部姿态是重点**——控挡的手 / 方向盘上的手指，江南给了极强的形态描写（"飞速变动 / 绝不拖泥带水 / 蝴蝶从指缝中飞出"），可以取"手部特写"变体单独出图
 - **氛围关键词**："港片犯罪片" / "夏日高架" / "冷面但在张罗事" —— 不要出成杀气腾腾的追杀戏，也不要出成阳光灿烂的兜风戏
-- **同场景可选变体**：车外仰角侧拍（Panamera 停在人行道边，车窗降下递名片给陈雯雯的瞬间，L6320-L6323）—— 此变体保留全部 diff，机位换到车外
+- **同场景可选变体**：
+  - **车外仰角侧拍**（Panamera 停在人行道边，车窗降下递名片给陈雯雯的瞬间，L6320-L6323）—— 保留全部 diff，机位换到车外
+  - **出门瞬间**（楚子航在自家玄关，斜跨网球包，妈妈问"出去打网球？"，L5934-L5952）—— 移除 Panamera / 手机 / 高架路，替换为室内暖光 + 玄关背景 + 全身站立
 
 ---
 
