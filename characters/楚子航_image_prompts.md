@@ -113,6 +113,8 @@ golden dragon eyes, glowing eyes, burning eyes, molten lava eyes, red eyes, iron
 > **都市轻喜剧公路小品（40%）+ 兄弟情谊 buddy movie（35%）+ 家常温情日常流（15%）+ 华语青春片余温（10%）**。
 > 一句话：**一个假装是杀手的师兄，用最大排量的跑车和最贵的餐厅，帮吃过很多亏的师弟张罗一次生日晚餐——外面是霸气外露，里面是琐碎温情。**
 >
+> **气质定位**：**冰山脸 · 暖男内核**。脸上零表情、语气不上扬，这一层不变；但他在做的事全是替师弟张罗生日、订餐位、发悬赏求座位——**冷是表演层的事，暖是行动层的事，两者并列不互相稀释，不是会被中和掉的"外冷内热"**。
+>
 > **"港片杀手"的正确使用范围**：**只作为视觉道具层的反差外壳**（黑超 / 冷面 / 沉默 / 侧脸 / 驾驶手部），**不作为氛围基调 / 叙事情绪 / 类型定位**。氛围基调是 buddy movie / 公路轻喜剧 / 家常温情。
 >
 > **反证锚点**（防止画风走偏时对照）：
@@ -137,13 +139,19 @@ golden dragon eyes, glowing eyes, burning eyes, molten lava eyes, red eyes, iron
 [ADD] shot through the driver-side window from a slight low angle, or interior three-quarter side profile framed by the door pillar
 [ADD] elevated urban expressway in the background, blurred summer greenery and Chinese city skyline in motion blur, mid-day heat haze
 [ADD] a small smartphone resting on the center console, screen faintly lit (call in progress, ordering restaurant reservation)
-[REPLACE] overcast diffused daylight → strong summer daylight, sharp side light through the windshield, warm highlights on the jawline, softened by soft ambient bounce from the passenger side (implies a friend riding shotgun, not a lone gunman)
-[ADD] cinematic urban buddy comedy road-trip aesthetic, understated luxury casual (low-key wealth, no visible logos), cool exterior with warm affectionate undertone, the stoic surface hides someone running errands for a friend
+[REPLACE] overcast diffused daylight → strong summer daylight, soft side light through the windshield, warm highlights on the jawline, gentle ambient shadow across the eyes (not harsh or crushed), a hint of soft fill light from the passenger side suggesting company rather than isolation
+[ADD] cinematic slice-of-life aesthetic, warm natural afternoon light, soft unforced shadows, relaxed everyday mood contrasted against the character's deliberately flat cold expression, understated luxury casual (low-key wealth, no visible logos)
 ```
+
+**场景专属 Negative（叠加在基线 Negative 之上）：**
+```
+harsh crushed shadows, high-contrast noir lighting, film-noir cool blue tone, neo-noir teal-and-orange grading, crime thriller mood, menacing atmosphere, threatening posture, dangerous aura, cold cyan overall grade, gunfight lighting, dramatic rim light on face, moody underexposed background
+```
+（人物表情的面瘫感通过基线的 `calm expressionless face, downcast gaze` 和 `deadpan, unbothered` 保证；这里 Negative 只针对**环境/光影/类型片氛围**，防止画面漂移回犯罪片调子。）
 
 **中文自然语言式（可整段替换基线）：**
 
-一位二十出头的年轻男人独自坐在一辆暗蓝色保时捷 Panamera 的驾驶座里。他戴着一副宽框的黑超墨镜，遮住了半张脸，只露出下颌和抿得平直的嘴唇——那半张脸看上去冷得像杀手，但其实他正在打电话订餐。一头毫不驯服的漆黑短发刚洗过，发梢还带点湿润，隐约有檀香味。他穿一件质地极好的纯白圆领 T 恤（Burberry 一级的基础款，低调无 logo），下身是水洗蓝的修身牛仔长裤（Diesel 系褪色靛蓝），一副从家门口刚出来的样子。一只黑色加长型硬壳网球包斜跨在肩后，包身够大，藏一把长刀绰绰有余——但这是他假期出门去帮师弟张罗生日晚餐的固定配置，不是去执行任务。左手搭在方向盘顶端，右手正落在手动挡的挡杆上，五指灵敏而克制。中控台上一部亮着屏的手机，通话中——他正在给一家意大利餐厅打电话订两人座。镜头从副驾驶视角侧拍他的侧脸，被门柱和阳光切成明暗两半，但副驾驶那侧还有一层柔和的反射光落回他的下颌线——因为副驾驶其实坐着人（他师弟）。车窗外是中国夏日的城市高架路，路面泛着热气，两侧的树影和城市天际线因车速虚化成流动的绿色和灰色。写实电影感人像，都市 buddy movie 公路小品美学，低调奢华的休闲基调（隐性财富，无可见 logo），**表面冷酷 · 底色温情**——一个杀手气质的师兄，正在帮兄弟张罗一顿生日晚餐。
+一位二十出头的年轻男人独自坐在一辆暗蓝色保时捷 Panamera 的驾驶座里。他戴着一副宽框的黑超墨镜，遮住了半张脸，只露出下颌和抿得平直的嘴唇——那半张脸看上去冷得像杀手，但其实他正在打电话订餐。一头毫不驯服的漆黑短发刚洗过，发梢还带点湿润，隐约有檀香味。他穿一件质地极好的纯白圆领 T 恤（Burberry 一级的基础款，低调无 logo），下身是水洗蓝的修身牛仔长裤（Diesel 系褪色靛蓝），一副从家门口刚出来的样子。一只黑色加长型硬壳网球包斜跨在肩后，包身够大，藏一把长刀绰绰有余——但这是他假期出门去帮师弟张罗生日晚餐的固定配置，不是去执行任务。左手搭在方向盘顶端，右手正落在手动挡的挡杆上，五指灵敏而克制。中控台上一部亮着屏的手机，通话中——他正在给一家意大利餐厅打电话订两人座。阳光从挡风玻璃斜斜地落进车厢，是夏日午后那种温暖松弛的自然光，暖光落在他的下颌线上，眼睛以上被墨镜和柔和的阴影带过——阴影是软的，不锋利、不压黑。副驾驶那侧还有一层淡淡的补光落回他的下颌，暗示副驾驶其实坐着人（他师弟），不是一场孤身戏。车窗外是中国夏日的城市高架路，路面泛着热气，两侧的树影和城市天际线因车速虚化成流动的绿色和灰色。写实电影感人像，**生活流质感为主**，低调奢华的休闲基调（隐性财富，无可见 logo），**人物表情克制冷淡，但环境光线温暖松弛**——这是一场看起来很酷的男生在暗中张罗师弟生日的午后，不是一场危险的戏。
 
 **中国车戏 diff → 原文对照：**
 
@@ -172,12 +180,14 @@ golden dragon eyes, glowing eyes, burning eyes, molten lava eyes, red eyes, iron
 - **网球包必须黑色、加长型、硬壳感**——它是"藏刀道具"，不是运动装饰。不要画成软布网球拍套，也不要露出球拍柄
 - **奢牌但无 logo**：Burberry 白 T / Diesel 牛仔的品味定位靠**版型 / 质感 / 剪裁**呈现，不要在画面里出现任何 logo 或经典格纹
 - **手部姿态是重点**——控挡的手 / 方向盘上的手指，江南给了极强的形态描写（"飞速变动 / 绝不拖泥带水 / 蝴蝶从指缝中飞出"），可以取"手部特写"变体单独出图
-- **氛围关键词（新）**："都市 buddy movie 公路小品" / "夏日高架张罗吃饭" / "外冷内热" —— **不要出成港片杀手戏 / 追杀戏 / 犯罪片**，也不要出成阳光灿烂的兜风戏。基调是**兄弟情谊 + 琐碎温情 + 表面冷酷**
-- **光影校正**：**削弱"cool shadow"对比强度**，加入 passenger side 的柔光反弹——这场戏是"车里坐着两个人"，不是"孤独杀手 solo"。冷光只落在墨镜/眉眼这一小片，下颌/脖颈/衣领应保留暖调
+- **氛围关键词（新）**："冰山脸暖男内核" / "夏日高架张罗生日" / "都市轻喜剧 · 兄弟情谊" / "表情零波动但环境温暖松弛"
+- **光影校正**：**冷阴影削到最低**——阴影是"gentle ambient shadow"（柔和的环境阴影），不是"cool shadow"（冷阴影）。副驾驶侧加一层 fill light 暗示有人陪同。冷光只作用于**表情/墨镜**这一小片区域，下颌/脖颈/衣领/环境全部保留暖调
 - **同场景可选变体**：
   - **【双人版 · 推荐】** 车内主副驾双人构图：楚子航驾驶座 + 路明非副驾。副驾侧路明非的膝盖上放着礼物盒/袋（L6345 "膝盖上的家伙事儿"，暗示他今天生日）。**这个构图更契合真实场景**——L6339-L6362 全部对话都是双人在场，solo 特写只是其中一个截面
   - **车外仰角侧拍**（Panamera 停在人行道边，车窗降下递名片给陈雯雯的瞬间，L6320-L6323）—— 保留全部 diff，机位换到车外
   - **出门瞬间**（楚子航在自家玄关，斜跨网球包，妈妈问"出去打网球？"，L5934-L5952）—— 移除 Panamera / 手机 / 高架路，替换为室内暖光 + 玄关背景 + 全身站立；玄关背景可带上"阿姨睡沙发 / 茶几上外卖单"的道具暗示（L5941, L5947），强化"藏着刀的师兄在做家常事"的反差
+
+- **【防漂移锁】**：**这场戏不是犯罪片，是都市轻喜剧 + 兄弟情谊**（依据见 `scenes/龙2_Panamera_风格分析.md`）。**楚子航的"冷"只存在于表情和语气，不要让它扩散成整个画面的高对比冷调色——脸可以绝对冷，但周围的光线、环境、其他人物的存在感应该是暖的、松弛的、有生活气的。** 如果生图结果出现 noir 冷蓝调 / 高对比压黑阴影 / 犯罪片氛围，回来加强 Negative 里的 `harsh crushed shadows / neo-noir teal-and-orange / crime thriller mood` 权重
 
 ---
 
